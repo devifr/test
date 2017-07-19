@@ -1,0 +1,26 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  username: postgres
+  password: edogawa3
+
+development:
+  <<: *default
+  database: digital_signed_development
+  port: 5432
+
+test:
+  <<: *default
+  database: digital_signed_test
+
+production:
+  <<: *default
+  database: digital_signed_test

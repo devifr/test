@@ -1,0 +1,2 @@
+class Ruang < ApplicationRecord
+end

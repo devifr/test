@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  x_position: 1
+  y_position: 1
+  current_user_id: 1
+  picture: 
+
+two:
+  x_position: 1
+  y_position: 1
+  current_user_id: 1
+  picture: 
